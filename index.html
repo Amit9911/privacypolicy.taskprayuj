@@ -5,179 +5,111 @@
   <title>Privacy Policy - Taskprayuj</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
+      font-family: "Segoe UI", Arial, sans-serif;
       line-height: 1.6;
       margin: 40px;
       background-color: #f9f9f9;
       color: #333;
     }
-    h1, h2, h3 {
+    h1, h2 {
       color: #2c3e50;
     }
     h1 {
       border-bottom: 3px solid #2c3e50;
       padding-bottom: 10px;
     }
-    section {
-      margin-bottom: 30px;
-      background: #fff;
-      padding: 20px;
-      border-radius: 8px;
-      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    h2 {
+      margin-top: 30px;
+      border-left: 5px solid #3498db;
+      padding-left: 10px;
     }
     ul {
-      margin: 10px 0;
-      padding-left: 20px;
+      list-style: disc;
+      margin-left: 20px;
+    }
+    .meta {
+      font-size: 0.9em;
+      color: #555;
+      margin-bottom: 20px;
+    }
+    .contact {
+      background: #ecf0f1;
+      padding: 15px;
+      border-radius: 5px;
+      margin-top: 20px;
     }
     strong {
       color: #2c3e50;
-    }
-    footer {
-      font-size: 0.9em;
-      color: #555;
-      margin-top: 40px;
-    }
-    a {
-      color: #2980b9;
-      text-decoration: none;
-    }
-    a:hover {
-      text-decoration: underline;
     }
   </style>
 </head>
 <body>
 
-  <h1>Privacy Policy</h1>
-
-  <section>
+  <h1>Updated Privacy Policy</h1>
+  <div class="meta">
     <p><strong>App Name:</strong> Taskprayuj</p>
-    <p><strong>Developer:</strong> Amit kumar (Personal Developer)</p>
+    <p><strong>Developer:</strong> Amit Kumar (Personal Developer)</p>
     <p><strong>Effective Date:</strong> January 23, 2026</p>
-    <p>This Privacy Policy describes how personal data is collected, used, stored, shared, and protected when the Taskprayuj Android app is used.</p>
-    <p>Compliance is maintained with India's <strong>Digital Personal Data Protection Act, 2023 (DPDP Act)</strong>, the <strong>General Data Protection Regulation (GDPR)</strong> where applicable, and <strong>Google Play Store requirements</strong>. The role of Data Fiduciary under the DPDP Act is fulfilled. The app is intended exclusively for users aged 18 years and older. No data is knowingly collected or processed from children under 18.</p>
-  </section>
+    <p><strong>Last Updated:</strong> February 13, 2026</p>
+  </div>
 
+  <h2>1. Overview</h2>
+  <p>This Privacy Policy describes how personal data is collected, used, stored, shared, and protected when the Taskprayuj Android app is used. Compliance is maintained with India’s <strong>Digital Personal Data Protection Act, 2023 (DPDP Act)</strong>, the <strong>General Data Protection Regulation (GDPR)</strong>, and <strong>Google Play Store Developer Policies</strong>.</p>
 
-<h2> Permissions and Device Access</h2>
-<p>To provide core functionality, the App requires access to specific device features. We only request permissions necessary for the features you choose to use:</p>
-<ul>
-    <li><strong>Notifications (POST_NOTIFICATIONS):</strong> We use this permission to send you reminders for tasks, maintain your habit streaks, and provide alerts for focus sessions (Pomodoro). You can withdraw this consent at any time via your device settings.</li>
-    <li><strong>Microphone (RECORD_AUDIO):</strong> We use this permission exclusively for the "Voice Journaling" feature. This allows the App to convert your spoken words into written text. Audio data is processed in real-time and is not stored on our servers or shared with third parties, except for the necessary conversion to text via system-level APIs, .</li>
-</ul>
-<p>You can manage or revoke these permissions at any time through your Android System Settings.</p>
+  <h2>2. Permissions and Device Access</h2>
+  <ul>
+    <li><strong>Notifications (POST_NOTIFICATIONS):</strong> Used for task reminders, habit streaks, and Pomodoro alerts.</li>
+    <li><strong>Microphone (RECORD_AUDIO):</strong> Used exclusively for the "Voice Journaling" feature. Audio is processed via system APIs to convert speech to text and is not stored as audio files on our servers.</li>
+    <li><strong>Advertising ID (AD_ID):</strong> Used by Google/Firebase services for basic app analytics and unique user counting. You can reset this in your Android device settings.</li>
+  </ul>
 
+  <h2>3. Data Collection and Usage</h2>
+  <ul>
+    <li><strong>Authentication:</strong> Name, Email, and hashed passwords are processed via Firebase Authentication.</li>
+    <li><strong>Local Storage:</strong> Tasks, habits, and journal entries are stored locally in a secure Room Database on your device.</li>
+    <li><strong>Analytics & Diagnostics:</strong> Firebase Analytics and Crashlytics are used to understand app usage and identify bugs.</li>
+    <li><strong>AI Integration:</strong> Anonymized snippets from journals may be processed by Gemini AI models to provide habit suggestions. No personally identifiable information (PII) is permanently associated with these AI queries.</li>
+  </ul>
 
-<h2>App Widget (Glance)</h2>
-<p>
-    Taskprayuj provides an App Widget feature that allows you to view your current tasks or habit streaks directly on your home screen. 
-    The widget accesses your <strong>local Room database</strong> to display this information. 
-    Data displayed on the widget is never transmitted to external servers specifically for the widget's functionality; 
-    it is processed entirely on-device to ensure privacy and speed.
-</p>
+  <h2>4. User Control: Analytics and Crash Reporting</h2>
+  <ul>
+    <li><strong>Opt-Out Toggle:</strong> Disable all non-essential data collection at any time via <em>Settings &gt; Data & Analytics</em>.</li>
+    <li><strong>Default State:</strong> Tracking is limited until you provide consent and can be revoked instantly.</li>
+  </ul>
 
-  <section>
-    <h2>Data Collected</h2>
-    <h3>Data provided by users:</h3>
-    <ul>
-      <li>Name, Email address and hashed password for authentication via Firebase Authentication.</li>
-      <li>Tasks, habits, and journal entries stored locally on the device.</li>
-    </ul>
-    
+  <h2>5. Data Sharing and Third-Party Services</h2>
+  <p>We do not sell your data. Data is shared only with:</p>
+  <ul>
+    <li><strong>Google Firebase:</strong> Authentication, analytics, crash reporting, and cloud messaging.</li>
+    <li><strong>Google Gemini:</strong> AI-powered productivity insights (Anonymized).</li>
+    <li><strong>Legal Necessity:</strong> If required by law or to protect user safety.</li>
+  </ul>
 
-    
-    <h3>Data collected automatically (via Firebase and Google services):</h3>
-    <ul>
-      <li>Device information (model, OS version, app version, language, approximate country from IP).</li>
-      <li>Usage events (sessions, feature interactions) via Firebase Analytics and Google Analytics.</li>
-      <li>Crash reports via Firebase Crashlytics.</li>
-      <li>Firebase Installation ID for notifications and analytics.</li>
-      <li>Anonymized snippets from journals sent to Gemini models for AI habit suggestions.</li>
-    </ul>
+  <h2>6. Storage and Retention</h2>
+  <ul>
+    <li><strong>User Content:</strong> Remains on your device until uninstalled or cleared.</li>
+    <li><strong>Analytics Data:</strong> Retained ~60 days in de-identified format.</li>
+    <li><strong>Account Data:</strong> Retained until you request deletion.</li>
+  </ul>
 
-    <p><em>No sensitive personal data</em> (health, religion, ethnicity) is collected unless voluntarily included in locally stored journal entries. All data transmission is encrypted using HTTPS.</p>
-  </section>
+  <h2>7. User Rights (DPDP Act & GDPR)</h2>
+  <ul>
+    <li><strong>Access & Correction:</strong> View and update your data within the app.</li>
+    <li><strong>Erasure:</strong> Delete your account and associated cloud data via the <em>Delete Account</em> button.</li>
+    <li><strong>Withdraw Consent:</strong> Revoke permissions or disable analytics via settings.</li>
+  </ul>
 
-  <section>
-    <h2>How Data Is Used</h2>
-    <ul>
-      <li>Authentication and secure account management.</li>
-      <li>Core features: task management, habit tracking, journaling, AI suggestions, microlearning lessons, notifications.</li>
-      <li>Usage analysis and app improvement via Firebase Analytics and google analytics.</li>
-      <li>Crash diagnosis and resolution via Crashlytics.</li>
-      <li>App stability monitoring and updates via Google Play.</li>
-      <li>Legal compliance, fraud prevention, and security maintenance.</li>
-    </ul>
-    <p>Only anonymized snippets are processed by AI; no identifiable data is retained after processing.</p>
-  </section>
+  <h2>8. Data Security</h2>
+  <p>All data transmitted between the app and Firebase servers is encrypted using <strong>HTTPS (TLS)</strong>. Industry-standard security measures are implemented to prevent unauthorized access or breaches.</p>
 
-  <section>
-    <h2>Sharing of Data</h2>
-    <ul>
-      <li>Shared with Google/Firebase under secure Data Processing and Security Terms.</li>
-      <li>Disclosed if required by law or to protect rights and safety.</li>
-      <li>Transferred in case of merger/acquisition with notice to users.</li>
-      <li>Data may be stored on servers outside India (e.g., US) with GDPR safeguards.</li>
-    </ul>
-  </section>
+  <h2>9. Children's Privacy</h2>
+  <p>Taskprayuj is intended for users aged 18 and older. We do not knowingly collect data from individuals under 18.</p>
 
-  <section>
-    <h2>Storage, Retention, and Security</h2>
-    <ul>
-      <li>User content stored locally on device.</li>
-      <li>Temporary processing/logging on Firebase servers.</li>
-      <li>Analytics retained ~60 days (de-identified).</li>
-      <li>Crash data retained ~90 days.</li>
-      <li>Authentication data retained until account deletion.</li>
-    </ul>
-    <p>Encryption in transit and at rest, access controls, ISO 27001 compliance. Breaches reported under DPDP Act and applicable laws.</p>
-  </section>
-
-  <section>
-    <h2>User Rights</h2>
-    <ul>
-      <li>Access and deletion of data via in-app features.</li>
-      <li>Consent withdrawal by account deletion.</li>
-      <li>Grievance escalation internally with us.</li>
-    </ul>
-    <p><strong>Account Deletion:</strong> <strong>Account deletion via in-app delete Account button.</strong></p>
-  </section>
-
-  <section>
-    <h2>Analytics and Crash Reporting Controls</h2>
-    <p>Firebase Analytics, google analytics and Crashlytics are enabled by default.</p>
-  </section>
-
-  <section>
-    <h2>Changes to This Privacy Policy</h2>
-    <p>Updates posted here. Significant changes notified in-app. Continued use after changes constitutes acceptance.</p>
-    
-  </section>
-
-  <section>
-    <h2>Third-Party Services</h2>
-    <p>Uses Google Firebase services. Review their privacy policies:</p>
-    <ul>
-      <li><a href="https://firebase.google.com/support/privacy" target="_blank">Firebase Privacy</a></li>
-      <li><a href="https://policies.google.com/privacy" target="_blank">Google Privacy Policy</a></li>
-    </ul>
-  </section>
-
-
-  <section>
-    <h2>Contact</h2>
-    <p><strong>Developer:</strong> Amit kumar</p>
-    <p><strong>Email:</strong> 1019atd@gmail.com </p>
-    
-    <p>This policy aligns with Google Play's Data safety disclosure requirements.</p>
-
-    <p>You must accept this privacy policy to use the Taskprayuj app.</p>
-
-  </section>
-
-  <footer>
-    <p>&copy; 2026 Taskprayuj. All rights reserved.</p>
-  </footer>
+  <h2>10. Contact and Grievance Redressal</h2>
+  <div class="contact">
+    <p><strong>Developer:</strong> Amit Kumar</p>
+    <p><strong>Email:</strong> 1019atd@gmail.com</p>
+  </div>
 
 </body>
 </html>
