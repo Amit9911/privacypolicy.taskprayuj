@@ -88,6 +88,7 @@
     <div class="accordion-content"><ul>
       <li><strong>Notifications:</strong> Task reminders and other updates (Taskprayuj uses both local notifications and cloud notifications via Firebase Cloud Messaging and Firebase In‑App Messaging to provide task reminders and other contextual guidance, contextual nudges and feature updates) .</li>
       <li><strong>Microphone:</strong> Used for Voice reminder and voice Journaling, processed locally.</li>
+      <li><strong>Calendar Access:</strong> Optional for Calendar Sync feature; allows reading/writing calendar events.</li>
       <li><strong>Advertising ID:</strong> Used for analytics and advertising purpose; can be reset anytime from device settings.</li>
       
     </ul></div></div>
@@ -102,9 +103,10 @@
       <li><strong>Date of birth:</strong> Collected for age verification purposes stored in firebase firestore database.</li>
       <li><strong>Local Storage:</strong> Tasks, habits, journals stored securely on device.</li>
       <li><strong>Analytics & Diagnostics:</strong> Firebase Analytics , Google Analytics and Crashlytics.</li>
+      <li><strong>Calendar Data:</strong> If you enable Calendar Sync, the app requests permission to read and write to your device's calendar. This data is used solely to display your tasks alongside your schedule and to create calendar events for your reminders. We do not store your calendar data on our servers, this data may be shared with gemini ai to provide ai features like task suggestion or productivity insights if you have enabled AI personalization.</li>
       <li><strong>AI Integration:</strong> Anonymized task and journal snippets processed by Google Gemini AI if Ai personalization is enabled in app settings.</li>
     <li><strong>Advertising Data</strong> Through Google AdMob, we collect data such as your device IP address, device identifiers (including Advertising ID), and information about your interactions with advertisements. This data is used to deliver relevant ads, measure ad campaign performance, and prevent fraudulent activity. For more information on how Google uses data in advertising, please refer to Google's Privacy Policy.</li>
-      
+      <li><strong>Purchases:</strong> Our app offers virtual items (Coins). All financial transactions are processed securely by Google Play Billing. TaskPrayuj does not collect or store your credit card numbers or bank details. We only receive a transaction token and order ID from Google to confirm your purchase and credit the coins to your account. </li>
     </ul></div></div>
 
   <div class="accordion"><div class="accordion-header"><span>4. User Control and Consent</span><span class="icon">➕</span></div>
@@ -126,10 +128,14 @@
 
 
 <div class="accordion"><div class="accordion-header"><span>6. Virtual Items & Rewards</span><span class="icon">➕</span></div>
-    <div class="accordion-content"><p>This App uses virtual "Coins" to unlock features like voice reminders, AI habit suggestions, and AI Microlearning.</p><ul>
-      <li><strong>Earnings:</strong> Earned via rewarded ads or app usage.</li>
+    <div class="accordion-content"><p>This App uses virtual "Coins" to unlock AI features like voice reminders, AI habit suggestions, and AI Microlearning.</p><ul>
+      <li><strong>Earnings:</strong> Earned via rewarded ads or in-app purchases.</li>
       <li><strong>Value:</strong> These are purely functional digital items with no real-world monetary value. They cannot be sold, transferred, or redeemed for cash.</li>
-    <li><strong>Storage:</strong> Your balance is stored on your device. Deleting your account or uninstalling the app permanently erases all coins.</li>
+      <li><strong>Storage:</strong> We retain your purchase history and coin balance to ensure your items are available if you switch devices or reinstall the app. This data is linked to your account and is deleted if you request account deletion.</li>
+
+      <li><strong>All sales of virtual coins are final. Refunds are only issued in cases of technical failure where the purchased items were not successfully credited to the user's account.</strong></li>
+
+
     </ul></div></div>
 
 
